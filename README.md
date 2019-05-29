@@ -1,5 +1,3 @@
-<link href="style.css/" rel="stylesheet" type="text/css"></link>
-
 ![EmptyStateKit logo](https://raw.githubusercontent.com/alberdev/EmptyStateKit/master/Images/header.png)
 
 # EmptyStateKit
@@ -310,8 +308,7 @@ public enum EmptyStateImagePosition {
 
 If you use EmptyStateKit I'd love to hear about it and feature your app here!
 
-![icon](https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/b9/ed/6e/b9ed6e65-b31c-2e2c-9113-16715decbbde/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.jpeg/246x0w.jpg){:height="50px" width="50px"}
- [FashTime](https://itunes.apple.com/app/fashtime-the-new-way/id1126538070?mt=8)
+<img src="Images/Apps/fashtime.png" width="50" height="50" valign="middle"> [FashTime](https://itunes.apple.com/app/fashtime-the-new-way/id1126538070?mt=8)
 
 ## Author
 
