@@ -1,3 +1,13 @@
+<style>
+    img[src*="#icon"] {
+        width: 50px;
+        height: 50px;
+        border-radius: 23%; 
+        margin-right: 20px;
+        vertical-align: middle;
+    }
+</style>
+
 ![EmptyStateKit logo](https://raw.githubusercontent.com/alberdev/EmptyStateKit/master/Images/header.png)
 
 # EmptyStateKit
@@ -304,11 +314,12 @@ public enum EmptyStateImagePosition {
 
 >Cover image will be setted by (Cover margin top image, Cover margin bottom image)
 
-## Mentions
+## Apps using EmptyStateKit
 
-If you use EmptyStateKit in your app I'd love to hear about it and feature your empty state here!
+If you use EmptyStateKit I'd love to hear about it and feature your app here!
 
-<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/b9/ed/6e/b9ed6e65-b31c-2e2c-9113-16715decbbde/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.jpeg/246x0w.jpg" style="border-radius:23%; margin-right:20px" width="50" valign="middle"> [FashTime](https://itunes.apple.com/app/fashtime-the-new-way/id1126538070?mt=8)
+![FashTime Icon](https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/b9/ed/6e/b9ed6e65-b31c-2e2c-9113-16715decbbde/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.jpeg/246x0w.jpg#icon)
+ [FashTime](https://itunes.apple.com/app/fashtime-the-new-way/id1126538070?mt=8)
 
 ## Author
 
