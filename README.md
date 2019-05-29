@@ -1,4 +1,4 @@
-<link href="https://github.com/alberdev/EmptyStateKit/blob/master/style.css" rel="stylesheet"></link>
+<link href="style.css/" rel="stylesheet" type="text/css"></link>
 
 ![EmptyStateKit logo](https://raw.githubusercontent.com/alberdev/EmptyStateKit/master/Images/header.png)
 
