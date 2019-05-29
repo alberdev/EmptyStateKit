@@ -1,0 +1,6 @@
+framework module EmptyStateKit {
+  umbrella header "EmptyStateKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

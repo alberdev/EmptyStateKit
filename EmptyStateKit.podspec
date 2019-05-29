@@ -7,36 +7,46 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'EmptyStateKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of EmptyStateKit.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/alberdev/EmptyStateKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'alberdev' => 'albertokr@gmail.com' }
-  s.source           = { :git => 'https://github.com/alberdev/EmptyStateKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'EmptyStateKit/Classes/**/*'
+  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
-  # s.resource_bundles = {
-  #   'EmptyStateKit' => ['EmptyStateKit/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.platform = :ios
+  s.ios.deployment_target = '10.0'
+  s.name              = 'EmptyStateKit'
+  s.summary           = 'Beautiful, modern & fully customizable empty state view. Use this placeholders to make your app even more interesting and add a bit of fun to the UI interactions whenever the view has no content to display.'
+  s.description       = 'Empty states are actually a great way to engage, keep and delight users at critical moments. Use EmptyStateKit to display awesome placeholder empty state in any UIView or UITableView/UICollectionView with refreshing features. It is super-useful to speed up a mobile development workflow due to its flexibility and ease of use.'
+  s.version           = '1.0.0'
+  
+  # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  
+  s.license           = { :type => 'MIT', :file => 'LICENSE' }
+  
+  # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  
+  s.author            = { 'Alberto Aznar' => 'info@alberdev.com' }
+  s.homepage          = 'https://github.com/alberdev/EmptyStateKit'
+  s.social_media_url  = 'https://twitter.com/alberdev'
+  
+  # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  
+  s.source            = { :git => 'https://github.com/alberdev/EmptyStateKit.git', :tag => s.version.to_s }
+  
+  # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  
+  s.framework         = 'UIKit'
+  
+  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  
+  s.source_files      = 'EmptyStateKit/**/*'
+  
+  # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  
+  # s.resources         = 'EmptyStateKit/Resources/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}'
+  
+  # ――― Swift Version ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  
+  s.swift_version     = '5.0'
+  
+  
+  
 end

@@ -3,9 +3,4 @@ use_frameworks!
 target 'EmptyStateKit_Example' do
   pod 'EmptyStateKit', :path => '../'
 
-  target 'EmptyStateKit_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

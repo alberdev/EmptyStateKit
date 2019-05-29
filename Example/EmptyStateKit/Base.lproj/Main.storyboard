@@ -1,30 +1,199 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xMz-jW-JYN">
+    <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <!--Navigation Controller-->
+        <scene sceneID="318-aC-fxf">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="EmptyStateKit_Example" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <navigationController id="xMz-jW-JYN" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="H3T-lv-yAX">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="cPy-be-DMJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cxy-o6-Yso" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-690" y="139"/>
+        </scene>
+        <!--EmptyStateKit-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="StateView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gta-cR-PLI">
+                                <rect key="frame" x="86" y="349.5" width="242" height="40"/>
+                                <color key="backgroundColor" red="0.26666666666666666" green="0.80000000000000004" blue="0.83921568627450982" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="UCO-BP-8Dj"/>
+                                    <constraint firstAttribute="width" constant="242" id="dcB-7s-u8U"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="16"/>
+                                <state key="normal" title="Show empty state here!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="viewDidPressHereButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EVh-xd-Okz"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZ0-np-lj5">
+                                <rect key="frame" x="20" y="20" width="374" height="191.5"/>
+                                <string key="text">EmptyStateKit can show empty states in every view, tables, or collections.
+
+Follow next examples to learn how to use. It's really simple!
+
+To complete empty states data, you can choose implementing EmptyStateDataSource or extend  your custom enum states with image, title, description and titleButton params.</string>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Using EmptyStateDataSource" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3A-97-HYT">
+                                <rect key="frame" x="20" y="240" width="374" height="33"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="See this MainViewController code to learn how to complete data with EmptyStateDataSource" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nqu-br-4XO">
+                                <rect key="frame" x="20" y="281" width="374" height="38.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Using CustomState enum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FBy-6d-w4p">
+                                <rect key="frame" x="20" y="429.5" width="374" height="33"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You can implement image, title, description and titleButton params for each state in your CustomState" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efv-Cq-PK0">
+                                <rect key="frame" x="20" y="470.5" width="374" height="38.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Hk-2k-Z6P">
+                                <rect key="frame" x="86" y="539" width="242" height="40"/>
+                                <color key="backgroundColor" red="0.2666666667" green="0.80000000000000004" blue="0.83921568629999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="6eA-qU-NfZ"/>
+                                    <constraint firstAttribute="width" constant="242" id="X4H-aK-jl4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="16"/>
+                                <state key="normal" title="Show in table!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="zEq-vF-zBj" kind="show" id="hDC-cW-PYi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Nqu-br-4XO" secondAttribute="trailing" constant="20" id="1V5-8u-waP"/>
+                            <constraint firstItem="efv-Cq-PK0" firstAttribute="top" secondItem="FBy-6d-w4p" secondAttribute="bottom" constant="8" id="1ql-hf-iw8"/>
+                            <constraint firstItem="FBy-6d-w4p" firstAttribute="top" secondItem="Gta-cR-PLI" secondAttribute="bottom" constant="40" id="2WE-xa-F9P"/>
+                            <constraint firstItem="FBy-6d-w4p" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="6D9-RW-jdb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="v3A-97-HYT" secondAttribute="trailing" constant="20" id="6cl-Ec-dH7"/>
+                            <constraint firstItem="Gta-cR-PLI" firstAttribute="top" secondItem="Nqu-br-4XO" secondAttribute="bottom" constant="30" id="Agm-0b-w2l"/>
+                            <constraint firstItem="Gta-cR-PLI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="H5w-bi-8Nq"/>
+                            <constraint firstItem="XZ0-np-lj5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Hc0-zs-6sr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FBy-6d-w4p" secondAttribute="trailing" constant="20" id="JrV-Mk-pRW"/>
+                            <constraint firstItem="Nqu-br-4XO" firstAttribute="top" secondItem="v3A-97-HYT" secondAttribute="bottom" constant="8" id="MSu-Li-C3F"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="efv-Cq-PK0" secondAttribute="trailing" constant="20" id="MdY-E6-iIV"/>
+                            <constraint firstItem="v3A-97-HYT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="SmH-ib-V7y"/>
+                            <constraint firstItem="v3A-97-HYT" firstAttribute="top" secondItem="XZ0-np-lj5" secondAttribute="bottom" constant="28.5" id="UZA-4D-TvZ"/>
+                            <constraint firstItem="efv-Cq-PK0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="bmm-0b-7Hd"/>
+                            <constraint firstItem="0Hk-2k-Z6P" firstAttribute="top" secondItem="efv-Cq-PK0" secondAttribute="bottom" constant="30" id="f4I-2s-xpY"/>
+                            <constraint firstItem="XZ0-np-lj5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="gNa-ul-VGi"/>
+                            <constraint firstItem="0Hk-2k-Z6P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="haU-sb-mI2"/>
+                            <constraint firstItem="Nqu-br-4XO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="kqF-1G-KFU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XZ0-np-lj5" secondAttribute="trailing" constant="20" id="n8u-Wn-tmx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="EmptyStateKit" id="Hdn-4r-aAJ"/>
+                    <connections>
+                        <outlet property="hereButton" destination="Gta-cR-PLI" id="ibE-iQ-idB"/>
+                        <outlet property="tableButton" destination="0Hk-2k-Z6P" id="IOG-ix-PYs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
+        </scene>
+        <!--CustomState-->
+        <scene sceneID="uJe-Mz-Npe">
+            <objects>
+                <tableViewController title="CustomState" id="zEq-vF-zBj" customClass="TableViewController" customModule="StateView" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="GFS-I3-ZD2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableViewCell" rowHeight="71" id="QvF-OX-lbd" customClass="TableViewCell" customModule="StateView" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="71"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QvF-OX-lbd" id="QUy-Rf-ojd">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="70.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="No message notifications" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVU-4f-umI">
+                                            <rect key="frame" x="20" y="11" width="374" height="25"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="18"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Center image / Center position / Center text" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RA5-I3-oOR">
+                                            <rect key="frame" x="20" y="44" width="374" height="19.5"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="RA5-I3-oOR" firstAttribute="leading" secondItem="QUy-Rf-ojd" secondAttribute="leadingMargin" id="83V-4X-2FQ"/>
+                                        <constraint firstItem="RA5-I3-oOR" firstAttribute="trailing" secondItem="QUy-Rf-ojd" secondAttribute="trailingMargin" id="CDx-Q6-QKY"/>
+                                        <constraint firstItem="MVU-4f-umI" firstAttribute="trailing" secondItem="QUy-Rf-ojd" secondAttribute="trailingMargin" id="F3X-OQ-HOO"/>
+                                        <constraint firstItem="MVU-4f-umI" firstAttribute="top" secondItem="QUy-Rf-ojd" secondAttribute="topMargin" id="VNc-xK-AO9"/>
+                                        <constraint firstItem="MVU-4f-umI" firstAttribute="leading" secondItem="QUy-Rf-ojd" secondAttribute="leadingMargin" id="Ywe-Tw-Hgx"/>
+                                        <constraint firstItem="RA5-I3-oOR" firstAttribute="top" secondItem="MVU-4f-umI" secondAttribute="bottom" constant="8" id="m6k-mM-gMF"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionLabel" destination="RA5-I3-oOR" id="jeu-d6-zIq"/>
+                                    <outlet property="titleLabel" destination="MVU-4f-umI" id="phs-5k-0gJ"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="zEq-vF-zBj" id="OFd-DT-h3c"/>
+                            <outlet property="delegate" destination="zEq-vF-zBj" id="XlA-OE-gsf"/>
+                        </connections>
+                    </tableView>
+                    <refreshControl key="refreshControl" opaque="NO" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="J2W-aL-Vzp">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <connections>
+                            <action selector="didRefresh:" destination="zEq-vF-zBj" eventType="valueChanged" id="KfX-cX-O6c"/>
+                        </connections>
+                    </refreshControl>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FsI-nF-MJH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1005.7971014492755" y="138.61607142857142"/>
         </scene>
     </scenes>
 </document>

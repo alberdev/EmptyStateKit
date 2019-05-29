@@ -1,0 +1,6 @@
+framework module Pods_EmptyStateKit_Example {
+  umbrella header "Pods-EmptyStateKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
