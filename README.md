@@ -300,7 +300,7 @@ public enum EmptyStateImagePosition {
 
 ## Author
 
-Alberto Aznar, info@alberdev.com
+Alberto Aznar, info@alberdev.com.
 The example contains some illustrations made by [Angga Risky](https://www.youtube.com/channel/UCG1aEPR4NO2Sd_mmJFimfQQ) and [Sweetie](https://dribbble.com/sweetie).
 
 ## Contributing
