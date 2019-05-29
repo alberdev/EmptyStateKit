@@ -2,10 +2,10 @@
 
 # EmptyStateKit
 
-[![Version](https://img.shields.io/cocoapods/v/EmptyStateKit.svg?style=flat&colorB=008B60)](https://cocoapods.org/pods/EmptyStateKit)
+[![Version](https://img.shields.io/cocoapods/v/EmptyStateKit.svg?style=flat&colorB=30CEF2)](https://cocoapods.org/pods/EmptyStateKit)
 [![License](https://img.shields.io/cocoapods/l/EmptyStateKit.svg?style=flat)](https://cocoapods.org/pods/EmptyStateKit)
 [![Platform](https://img.shields.io/cocoapods/p/EmptyStateKit.svg?style=flat)](https://cocoapods.org/pods/EmptyStateKit)
-![Swift](https://img.shields.io/badge/%20in-swift%205.0-orange.svg?style=flat&colorB=008B60)
+![Swift](https://img.shields.io/badge/%20in-swift%205.0-orange.svg?style=flat&colorB=30CEF2)
 
 ## Table of Contents
 
@@ -13,12 +13,13 @@
 - [Example](#example)
 - [Installation](#installation)
 - [Usage](#usage)
-    - [1. Complete empty states data](#1.completeemptystatesdata)
-    - [2. Show or hide your empty state](#2.showorhideyouremptystate)
-    - [3. Handling button action with EmptyStateDelegate](#3.handlingbuttonactionwithemptystatedelegate)
+    - [1. Complete empty states data](#1-complete-empty-states-data)
+    - [2. Show or hide your empty state](#2-show-or-hide-your-empty-state)
+    - [3. Handling button action with EmptyStateDelegate](#3-handling-button-action-with-emptystatedelegate)
 - [Format](#format)
-- [Animation Types](#animationtypes)
-- [Position Types](#positiontypes)
+- [Animation Types](#animation-types)
+- [Position Types](#position-types)
+- [Mentions](#mentions)
 - [Author](#author)
 - [Contributing](#contributing)
 - [License](#license)
@@ -58,11 +59,16 @@ import EmptyStateKit
 
 ## Usage
 
-It's important, when an error or empty state occurs, to inform or teach the user how to recover from the error or how to populate the screen with content. Keep in mind to give your users a next step, like  a link to another section, a button to recover from an error or content to interact with. This will help you to increase engagement! In the example you will see multiple types of empty states and how you can customize them. Be creative!. Once you've installed the pod, follow next steps. It's really simple:
+It's important, when an error or empty state occurs, to inform or teach the user how to recover from the error or how to populate the screen with content. Keep in mind to give your users a next step, like  a link to another section, a button to recover from an error or content to interact with. This will help you to increase engagement! In the example you will see multiple types of empty states and how you can customize them. Be creative!. 
+
+---
+
+Once you've installed the pod, follow next steps. It's really simple:
 
 ### 1. Complete empty states data
 
-To complete empty states data, you can choose implementing EmptyStateDataSource or extend your custom enum states with image, title, description and titleButton params. I recommend the second option to keep states data outside your view controller.
+To complete empty states data, you can choose implementing EmptyStateDataSource or extend your custom enum states with image, title, description and titleButton params. 
+>I recommend the second option to keep states data outside your view controller.
 
 #### Using EmptyStateDataSource
 
@@ -298,12 +304,20 @@ public enum EmptyStateImagePosition {
 
 >Cover image will be setted by (Cover margin top image, Cover margin bottom image)
 
+## Mentions
+
+If you use EmptyStateKit in your app I'd love to hear about it and feature your empty state here!
+
+<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/b9/ed/6e/b9ed6e65-b31c-2e2c-9113-16715decbbde/AppIcon-0-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-5.jpeg/246x0w.jpg" style="border-radius:23%; margin-right:20px" width="50" valign="middle"> [FashTime](https://itunes.apple.com/app/fashtime-the-new-way/id1126538070?mt=8)
+
 ## Author
 
 Alberto Aznar, info@alberdev.com.
 The example contains some illustrations made by [Angga Risky](https://www.youtube.com/channel/UCG1aEPR4NO2Sd_mmJFimfQQ) and [Sweetie](https://dribbble.com/sweetie).
 
 ## Contributing
+
+Feel free to collaborate with ideas 💭, issues ⁉️ and/or pull requests 🔃.
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
