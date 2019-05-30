@@ -19,7 +19,7 @@
 - [Format](#format)
 - [Animation Types](#animation-types)
 - [Position Types](#position-types)
-- [Mentions](#mentions)
+- [Apps using EmptyStateKit](#apps-using-emptystatekit)
 - [Author](#author)
 - [Contributing](#contributing)
 - [License](#license)
@@ -160,7 +160,7 @@ enum State: CustomState {
 This step is really simple ;) 
 
 ```swift
-view.emptyState.show(MainState.noInternet)
+view.emptyState.show(State.noInternet)
 ```
 
 You can use empty states in your Table or Collection views maintaining refreshing content features. For this, table or collection view must be empty (0 rows). `EmptyStateKit` will complete the table or collection background view and remove the separatorStyle to show your empty state.
@@ -306,7 +306,7 @@ public enum EmptyStateImagePosition {
 
 ## Apps using EmptyStateKit
 
-If you use EmptyStateKit I'd love to hear about it and feature your app here!
+If you use `EmptyStateKit` I'd love to hear about it and feature your app here!
 
 <img src="Images/Apps/fashtime.png" width="50" height="50" valign="middle"> [FashTime](https://itunes.apple.com/app/fashtime-the-new-way/id1126538070?mt=8)
 
