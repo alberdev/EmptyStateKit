@@ -33,7 +33,7 @@
 		83FBC1FBBEED4C2A9F733032 /* Pods-EmptyStateKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmptyStateKit_Example.release.xcconfig"; path = "Target Support Files/Pods-EmptyStateKit_Example/Pods-EmptyStateKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9E344564722A0C68B87B8771 /* Pods-EmptyStateKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmptyStateKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-EmptyStateKit_Tests/Pods-EmptyStateKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BAC2F7F7702F02A5F92D3174 /* Pods-EmptyStateKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmptyStateKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-EmptyStateKit_Tests/Pods-EmptyStateKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CE8A898D07E05853F3CDA0A8 /* EmptyStateKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EmptyStateKit.podspec; path = ../EmptyStateKit.podspec; sourceTree = "<group>"; };
+		CE8A898D07E05853F3CDA0A8 /* EmptyStateKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EmptyStateKit.podspec; path = ../EmptyStateKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D1BFC14EC49F5814409CF676 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E3A354E6229E882D00AFD57F /* MainState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainState.swift; sourceTree = "<group>"; };
 		E3A354E7229E882D00AFD57F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -376,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -422,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
