@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
   
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
-  s.resources         = 'EmptyStateKit/Resources/EmptyStateView.xib'
+  s.resources         = ['EmptyStateKit/Resources/EmptyStateView.xib']
   
   # ――― Swift Version ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   

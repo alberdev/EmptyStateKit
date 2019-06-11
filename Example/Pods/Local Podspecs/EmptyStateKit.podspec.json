@@ -21,6 +21,8 @@
   },
   "frameworks": "UIKit",
   "source_files": "EmptyStateKit/**/*",
-  "resources": "EmptyStateKit/Resources/EmptyStateView.xib",
+  "resources": [
+    "EmptyStateKit/Resources/EmptyStateView.xib"
+  ],
   "swift_versions": "5.0"
 }
