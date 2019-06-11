@@ -1,5 +1,5 @@
 PODS:
-  - EmptyStateKit (1.0.5)
+  - EmptyStateKit (1.0.6)
 
 DEPENDENCIES:
   - EmptyStateKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EmptyStateKit: b6c9bd7a073cd00e79e0d97a45aed3b50e4de351
+  EmptyStateKit: 648a5932aafcf45661a04eeeecc37b840334e8f5
 
 PODFILE CHECKSUM: f68fc92804185eb9d18043f925121736eafb4105
 
