@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FA19E50BC52EEF8C89BF854D552A86F /* EmptyStateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E81BF2E1689AF0CB98128EC113DF4DC /* EmptyStateFormat.swift */; };
-		15676C023B90B9949B8C80F718C4DCB3 /* EmptyStateView+Positions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21A18CD64CA55050F2C42E44F516AB2 /* EmptyStateView+Positions.swift */; };
+		0057F11B7D0A8E4508EA6ECD6E9E199D /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B937DEE02B4A8C7A317D88DA2D3B5CA1 /* EmptyStateView.swift */; };
+		053890B2B923B41D8FB2AFD20C63D258 /* EmptyStateView+Positions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC25826FC2E4C7E65F4CCA9112678D14 /* EmptyStateView+Positions.swift */; };
+		0A6E0CDABD53F642D02BD1E8D171D131 /* EmptyStatePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5D0C7F31D27A8E3DCD96F937274A74 /* EmptyStatePosition.swift */; };
+		13B900D2A96304D7C5E6969F524EBC4A /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF1886D55280AFE7AFCF31150897F79 /* EmptyState.swift */; };
 		202DEB7EC14CCBF497EE29E76397C616 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		23163F0ACDE0EE97280266E841EA3C37 /* AssociationPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560BDB908B2A3F1CB87F8C7E79B1D546 /* AssociationPolicy.swift */; };
-		2CB363D0446DFCD5990375E2F6F2E183 /* EmptyStateView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8C36080C31B19C404C79EBEF7C63B9 /* EmptyStateView+Animations.swift */; };
-		4FE5E7447D968B88A335A121117D6103 /* EmptyStateKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E979E098A823D2BA0FC9895BAEC64F4 /* EmptyStateKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5F9FEF2A8A2C79298864D54A63FBF400 /* EmptyStateKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E1A461EB35CCA82F81D74ED291F084 /* EmptyStateKit-dummy.m */; };
-		5FC1D2DDFE6C759E268EDB19FDCEC73B /* EmptyStateView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 416D73E58DFCDEA90E5747B6E45D2682 /* EmptyStateView.xib */; };
+		2EFD8229923B38C0C6D90459077AFF3E /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3EA7AABB12D552BAF07AB89026C7B0 /* UIView+Nib.swift */; };
+		4D69A6BF9B2949E2301DB98AD946FEC9 /* CustomState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B494BB2651649DFEDF8E3DFECA2041B /* CustomState.swift */; };
+		4FE5E7447D968B88A335A121117D6103 /* EmptyStateKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E09CD4428A7B00E520942CF74D69539 /* EmptyStateKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61891877A65ED2F6A9296D3AE74F04F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		7312B23933D950771B93D50589EAFF69 /* EmptyStatePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB12A7BEE4C6060828B4F57770FEFB7B /* EmptyStatePosition.swift */; };
-		8828588AB7C949A40999C1E95A5DBD55 /* UIView+EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9AA423892FE6AEC0EA26074919F2A2 /* UIView+EmptyState.swift */; };
+		6208412B17338A5D353DF2D841FFF709 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B97FF64BC4266091C55003CD892B3BD /* NibLoadable.swift */; };
+		75E6089514B416007D3E1375E0FD923B /* EmptyStateView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA26DB50561BDD699EEE3EBBFF259F44 /* EmptyStateView+Animations.swift */; };
+		7D7EC5A36E6996604F6E125AB2E14C9C /* AssociationPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F8F4F4A0DE4F71E88352954900BD41 /* AssociationPolicy.swift */; };
 		8F7C3CA0740B3EAC8B504DEBC4F851C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
-		9E8608B4DFBE15E3854F428EC778F956 /* EmptyStateAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C9D9A86905CC9567AFB86574D2D553 /* EmptyStateAnimation.swift */; };
-		A124122244EBD1C8724497C45848A410 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F12D3F90AA391FB5AEED9290CD65985 /* UIView+Nib.swift */; };
+		90FDAD9F8CA79B602E249235317CA65C /* EmptyStateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CD174BC0A020F399771E1422CEFA1B /* EmptyStateFormat.swift */; };
+		91427ADD6D10B23D9B819E4CACB1F9FA /* EmptyStateAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE1445E4DA5D2E56ACFB5C32325735 /* EmptyStateAnimation.swift */; };
 		B406A56349FCC0C16AD1E8D5D7EDC5C3 /* Pods-EmptyStateKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE93808979FB22A468CE9B06C65D2482 /* Pods-EmptyStateKit_Example-dummy.m */; };
-		E10B341B10A718EC6047D6751EA61DF1 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE287EC6F34A0CBCC77D16182352EA /* EmptyStateView.swift */; };
-		E4413AE943FA454CC121BBEAAD3BDD64 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B751F20EFD43CBE876F58EE7071F70CE /* NibLoadable.swift */; };
-		EB1DD1CEE2336671FBCE4746DC521DB3 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBF966A78B8BBCFFAA431DD69B4329F /* NibView.swift */; };
+		DA5ED88889FDBA385A42F972C2747258 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C515B3FDF6B88C5E107B360D0C9E8B78 /* NibView.swift */; };
+		DF57B5E3AD6BC799815F54FD7D02072F /* EmptyStateKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B30DA5B4A4E5AC3FA69D013FC0FB8D5 /* EmptyStateKit-dummy.m */; };
 		F2B9D8299A68D700FACC60D6AB26CD8A /* Pods-EmptyStateKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EC5CA4CD69C9CB6C0FF1DD9D325164 /* Pods-EmptyStateKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5E8DC1D4798C4682D2349DCE9F6487D /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AE5F177EA5524B76EEB6DB3E7B48DD /* EmptyState.swift */; };
-		FFDEAEEB3C7AFB0A3691ACCD2352E3EE /* CustomState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0ACDCDF51F21C2104EDE4FD82E8535 /* CustomState.swift */; };
+		F418D71D1517A2CE8BD940EE7826D84D /* EmptyStateView.xib in Sources */ = {isa = PBXBuildFile; fileRef = F0DB3A5C29D46CFD8DF8039AD85B0AE3 /* EmptyStateView.xib */; };
+		FA3C8714BD085427C5476E9B51BBF8BB /* UIView+EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1175DC0679254CA2E7392C38DA2F63C /* UIView+EmptyState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,43 +41,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0193CA2AAC2F6617FBDF44C233419369 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		077B0F885B5EFFA6CA6B4E59D13D854E /* EmptyStateKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmptyStateKit.xcconfig; sourceTree = "<group>"; };
-		1E81BF2E1689AF0CB98128EC113DF4DC /* EmptyStateFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmptyStateFormat.swift; path = EmptyStateKit/Classes/EmptyStateFormat.swift; sourceTree = "<group>"; };
-		27C431FE9398AC647FB23B2166E1BC0A /* EmptyStateKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EmptyStateKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		00CD174BC0A020F399771E1422CEFA1B /* EmptyStateFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmptyStateFormat.swift; path = EmptyStateKit/Classes/EmptyStateFormat.swift; sourceTree = "<group>"; };
+		0E09CD4428A7B00E520942CF74D69539 /* EmptyStateKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmptyStateKit-umbrella.h"; sourceTree = "<group>"; };
+		1A92C9C45309E55F40EB1D58804C829C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2E0CD00FD69293AC7BA0E790C5D189CE /* Pods-EmptyStateKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EmptyStateKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2E979E098A823D2BA0FC9895BAEC64F4 /* EmptyStateKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmptyStateKit-umbrella.h"; sourceTree = "<group>"; };
-		3B548A91E72C30BA558B07E4A266A3A7 /* EmptyStateKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EmptyStateKit-Info.plist"; sourceTree = "<group>"; };
-		3C8C36080C31B19C404C79EBEF7C63B9 /* EmptyStateView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "EmptyStateView+Animations.swift"; sourceTree = "<group>"; };
-		3C9AA423892FE6AEC0EA26074919F2A2 /* UIView+EmptyState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+EmptyState.swift"; sourceTree = "<group>"; };
+		3511C1E4F7FB18A902C5B6A81B2D9B52 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3DF1886D55280AFE7AFCF31150897F79 /* EmptyState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmptyState.swift; path = EmptyStateKit/Classes/EmptyState.swift; sourceTree = "<group>"; };
 		3F03532B11867CC3FEFF3F6567FA8829 /* EmptyStateKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EmptyStateKit.framework; path = EmptyStateKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		416D73E58DFCDEA90E5747B6E45D2682 /* EmptyStateView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EmptyStateView.xib; path = EmptyStateKit/Classes/EmptyStateView.xib; sourceTree = "<group>"; };
-		560BDB908B2A3F1CB87F8C7E79B1D546 /* AssociationPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AssociationPolicy.swift; sourceTree = "<group>"; };
+		4FEE1445E4DA5D2E56ACFB5C32325735 /* EmptyStateAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmptyStateAnimation.swift; sourceTree = "<group>"; };
+		5B30DA5B4A4E5AC3FA69D013FC0FB8D5 /* EmptyStateKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EmptyStateKit-dummy.m"; sourceTree = "<group>"; };
+		6A5D0C7F31D27A8E3DCD96F937274A74 /* EmptyStatePosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmptyStatePosition.swift; sourceTree = "<group>"; };
 		72EC5CA4CD69C9CB6C0FF1DD9D325164 /* Pods-EmptyStateKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EmptyStateKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		73AE5F177EA5524B76EEB6DB3E7B48DD /* EmptyState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmptyState.swift; path = EmptyStateKit/Classes/EmptyState.swift; sourceTree = "<group>"; };
-		82B5320FFB906132790A9424B33B0CE0 /* EmptyStateKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmptyStateKit-prefix.pch"; sourceTree = "<group>"; };
-		862AE79ED010F19807DCE20720F0E749 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		8F0ACDCDF51F21C2104EDE4FD82E8535 /* CustomState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomState.swift; sourceTree = "<group>"; };
+		7AF82B51E03747832224FEB4F2055C07 /* EmptyStateKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmptyStateKit-prefix.pch"; sourceTree = "<group>"; };
+		7B494BB2651649DFEDF8E3DFECA2041B /* CustomState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomState.swift; sourceTree = "<group>"; };
+		7B97FF64BC4266091C55003CD892B3BD /* NibLoadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F12D3F90AA391FB5AEED9290CD65985 /* UIView+Nib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
 		A177E9E308E4025B1AFA3E804A8CB868 /* Pods-EmptyStateKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmptyStateKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA3EA7AABB12D552BAF07AB89026C7B0 /* UIView+Nib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
+		B58BBFFE73B0213A936BDA95916EDAB7 /* EmptyStateKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EmptyStateKit-Info.plist"; sourceTree = "<group>"; };
 		B6790F881059DDFDDCF9B86F4207658D /* Pods-EmptyStateKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmptyStateKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B751F20EFD43CBE876F58EE7071F70CE /* NibLoadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
-		B8E1A461EB35CCA82F81D74ED291F084 /* EmptyStateKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EmptyStateKit-dummy.m"; sourceTree = "<group>"; };
-		BDBF966A78B8BBCFFAA431DD69B4329F /* NibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibView.swift; path = EmptyStateKit/Classes/NibView.swift; sourceTree = "<group>"; };
+		B73AA97C7707A6E093FCD05278F6A080 /* EmptyStateKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EmptyStateKit.modulemap; sourceTree = "<group>"; };
+		B937DEE02B4A8C7A317D88DA2D3B5CA1 /* EmptyStateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmptyStateView.swift; path = EmptyStateKit/Classes/EmptyStateView.swift; sourceTree = "<group>"; };
 		BE654F42BDC94350CAF282B94AF4137E /* Pods-EmptyStateKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EmptyStateKit_Example-Info.plist"; sourceTree = "<group>"; };
-		C21A18CD64CA55050F2C42E44F516AB2 /* EmptyStateView+Positions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "EmptyStateView+Positions.swift"; sourceTree = "<group>"; };
 		C3D145705710AAD4A1ABAF11878857AE /* Pods_EmptyStateKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EmptyStateKit_Example.framework; path = "Pods-EmptyStateKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBCE287EC6F34A0CBCC77D16182352EA /* EmptyStateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmptyStateView.swift; path = EmptyStateKit/Classes/EmptyStateView.swift; sourceTree = "<group>"; };
+		C515B3FDF6B88C5E107B360D0C9E8B78 /* NibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibView.swift; path = EmptyStateKit/Classes/NibView.swift; sourceTree = "<group>"; };
+		C8F8F4F4A0DE4F71E88352954900BD41 /* AssociationPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AssociationPolicy.swift; sourceTree = "<group>"; };
+		CA26DB50561BDD699EEE3EBBFF259F44 /* EmptyStateView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "EmptyStateView+Animations.swift"; sourceTree = "<group>"; };
+		CC25826FC2E4C7E65F4CCA9112678D14 /* EmptyStateView+Positions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "EmptyStateView+Positions.swift"; sourceTree = "<group>"; };
+		D1175DC0679254CA2E7392C38DA2F63C /* UIView+EmptyState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+EmptyState.swift"; sourceTree = "<group>"; };
 		D157E52A74F110506832292FE8832467 /* Pods-EmptyStateKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EmptyStateKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D6C72A66A05A9CE43E663BD9F19FF2E5 /* Pods-EmptyStateKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EmptyStateKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DB4F5FF9B3ADBD0DE8D732C9F0F4815E /* Pods-EmptyStateKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EmptyStateKit_Example.modulemap"; sourceTree = "<group>"; };
 		DE93808979FB22A468CE9B06C65D2482 /* Pods-EmptyStateKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmptyStateKit_Example-dummy.m"; sourceTree = "<group>"; };
-		E72A0B5F721B45DAC76D417FFBE8D967 /* EmptyStateKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EmptyStateKit.modulemap; sourceTree = "<group>"; };
-		EB12A7BEE4C6060828B4F57770FEFB7B /* EmptyStatePosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmptyStatePosition.swift; sourceTree = "<group>"; };
+		E982180970839CB781403EB1068B092F /* EmptyStateKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmptyStateKit.xcconfig; sourceTree = "<group>"; };
+		EC9A4C3B36E2AD84C6E3B8F79DBEF6AC /* EmptyStateKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EmptyStateKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		F0C9D9A86905CC9567AFB86574D2D553 /* EmptyStateAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EmptyStateAnimation.swift; sourceTree = "<group>"; };
+		F0DB3A5C29D46CFD8DF8039AD85B0AE3 /* EmptyStateView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = EmptyStateView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,36 +101,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		010DB8CE8885177E473785C591ACDED3 /* EmptyStateKit */ = {
-			isa = PBXGroup;
-			children = (
-				73AE5F177EA5524B76EEB6DB3E7B48DD /* EmptyState.swift */,
-				1E81BF2E1689AF0CB98128EC113DF4DC /* EmptyStateFormat.swift */,
-				CBCE287EC6F34A0CBCC77D16182352EA /* EmptyStateView.swift */,
-				416D73E58DFCDEA90E5747B6E45D2682 /* EmptyStateView.xib */,
-				BDBF966A78B8BBCFFAA431DD69B4329F /* NibView.swift */,
-				D801137DDA34C2B88D3324BECF067E2D /* Animations */,
-				5530BAF7D7D0A12AA35C88A803C2B4AD /* AssociationPolicy */,
-				B40182CB686863BEDB35F3F128433698 /* Extensions */,
-				FC580B4921D63C365E8ED2A0539FE505 /* Pod */,
-				7B1D152516CBCDE363BB74C6FEFE11F1 /* Positions */,
-				0E74DC6AF805997BD0BFE43382AA2675 /* Protocols */,
-				153D939CA807E4960C0B8857AE5F05C1 /* Support Files */,
-			);
-			name = EmptyStateKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		0E74DC6AF805997BD0BFE43382AA2675 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				8F0ACDCDF51F21C2104EDE4FD82E8535 /* CustomState.swift */,
-				B751F20EFD43CBE876F58EE7071F70CE /* NibLoadable.swift */,
-			);
-			name = Protocols;
-			path = EmptyStateKit/Classes/Protocols;
-			sourceTree = "<group>";
-		};
 		108B886DA110219AFE8929FE66C9F5D0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,26 +109,46 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		153D939CA807E4960C0B8857AE5F05C1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E72A0B5F721B45DAC76D417FFBE8D967 /* EmptyStateKit.modulemap */,
-				077B0F885B5EFFA6CA6B4E59D13D854E /* EmptyStateKit.xcconfig */,
-				B8E1A461EB35CCA82F81D74ED291F084 /* EmptyStateKit-dummy.m */,
-				3B548A91E72C30BA558B07E4A266A3A7 /* EmptyStateKit-Info.plist */,
-				82B5320FFB906132790A9424B33B0CE0 /* EmptyStateKit-prefix.pch */,
-				2E979E098A823D2BA0FC9895BAEC64F4 /* EmptyStateKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EmptyStateKit";
-			sourceTree = "<group>";
-		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				E169A450ED27AC725DF52953F66D11E0 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29023425350768CD6EE7507690331E1A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B73AA97C7707A6E093FCD05278F6A080 /* EmptyStateKit.modulemap */,
+				E982180970839CB781403EB1068B092F /* EmptyStateKit.xcconfig */,
+				5B30DA5B4A4E5AC3FA69D013FC0FB8D5 /* EmptyStateKit-dummy.m */,
+				B58BBFFE73B0213A936BDA95916EDAB7 /* EmptyStateKit-Info.plist */,
+				7AF82B51E03747832224FEB4F2055C07 /* EmptyStateKit-prefix.pch */,
+				0E09CD4428A7B00E520942CF74D69539 /* EmptyStateKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EmptyStateKit";
+			sourceTree = "<group>";
+		};
+		2B44C82BCF724C803F38CD169FCAD0A2 /* EmptyStateKit */ = {
+			isa = PBXGroup;
+			children = (
+				3DF1886D55280AFE7AFCF31150897F79 /* EmptyState.swift */,
+				00CD174BC0A020F399771E1422CEFA1B /* EmptyStateFormat.swift */,
+				B937DEE02B4A8C7A317D88DA2D3B5CA1 /* EmptyStateView.swift */,
+				C515B3FDF6B88C5E107B360D0C9E8B78 /* NibView.swift */,
+				50CFC5358CEEE315AA2F7854656438B2 /* Animations */,
+				7416D9614CC64CB1B751DE1FABC226B1 /* AssociationPolicy */,
+				C21763E8EAAF96C3D7BE94D99E00DC25 /* Extensions */,
+				6161CDDCD1F614CD277C99AF868237E3 /* Pod */,
+				B2650BD16088738EDBE580869DCA384A /* Positions */,
+				A152EF80F9A25BC1C4F0AE5E54B7400D /* Protocols */,
+				FF91076AF3F29FB1EDCDF83800471B77 /* Resources */,
+				29023425350768CD6EE7507690331E1A /* Support Files */,
+			);
+			name = EmptyStateKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		350A0287931CA346DE684430738E6A4A /* Products */ = {
@@ -170,31 +160,51 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5530BAF7D7D0A12AA35C88A803C2B4AD /* AssociationPolicy */ = {
+		50CFC5358CEEE315AA2F7854656438B2 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
-				560BDB908B2A3F1CB87F8C7E79B1D546 /* AssociationPolicy.swift */,
+				4FEE1445E4DA5D2E56ACFB5C32325735 /* EmptyStateAnimation.swift */,
+				CA26DB50561BDD699EEE3EBBFF259F44 /* EmptyStateView+Animations.swift */,
+			);
+			name = Animations;
+			path = EmptyStateKit/Classes/Animations;
+			sourceTree = "<group>";
+		};
+		6161CDDCD1F614CD277C99AF868237E3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EC9A4C3B36E2AD84C6E3B8F79DBEF6AC /* EmptyStateKit.podspec */,
+				3511C1E4F7FB18A902C5B6A81B2D9B52 /* LICENSE */,
+				1A92C9C45309E55F40EB1D58804C829C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7416D9614CC64CB1B751DE1FABC226B1 /* AssociationPolicy */ = {
+			isa = PBXGroup;
+			children = (
+				C8F8F4F4A0DE4F71E88352954900BD41 /* AssociationPolicy.swift */,
 			);
 			name = AssociationPolicy;
 			path = EmptyStateKit/Classes/AssociationPolicy;
 			sourceTree = "<group>";
 		};
-		7B1D152516CBCDE363BB74C6FEFE11F1 /* Positions */ = {
-			isa = PBXGroup;
-			children = (
-				EB12A7BEE4C6060828B4F57770FEFB7B /* EmptyStatePosition.swift */,
-				C21A18CD64CA55050F2C42E44F516AB2 /* EmptyStateView+Positions.swift */,
-			);
-			name = Positions;
-			path = EmptyStateKit/Classes/Positions;
-			sourceTree = "<group>";
-		};
 		8A6F7E57A1790205BBA0F87FDB1D908F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				010DB8CE8885177E473785C591ACDED3 /* EmptyStateKit */,
+				2B44C82BCF724C803F38CD169FCAD0A2 /* EmptyStateKit */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A152EF80F9A25BC1C4F0AE5E54B7400D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7B494BB2651649DFEDF8E3DFECA2041B /* CustomState.swift */,
+				7B97FF64BC4266091C55003CD892B3BD /* NibLoadable.swift */,
+			);
+			name = Protocols;
+			path = EmptyStateKit/Classes/Protocols;
 			sourceTree = "<group>";
 		};
 		AA092D3BEB672A6F378BF7EC6BA0ACD8 /* Pods-EmptyStateKit_Example */ = {
@@ -214,11 +224,21 @@
 			path = "Target Support Files/Pods-EmptyStateKit_Example";
 			sourceTree = "<group>";
 		};
-		B40182CB686863BEDB35F3F128433698 /* Extensions */ = {
+		B2650BD16088738EDBE580869DCA384A /* Positions */ = {
 			isa = PBXGroup;
 			children = (
-				3C9AA423892FE6AEC0EA26074919F2A2 /* UIView+EmptyState.swift */,
-				9F12D3F90AA391FB5AEED9290CD65985 /* UIView+Nib.swift */,
+				6A5D0C7F31D27A8E3DCD96F937274A74 /* EmptyStatePosition.swift */,
+				CC25826FC2E4C7E65F4CCA9112678D14 /* EmptyStateView+Positions.swift */,
+			);
+			name = Positions;
+			path = EmptyStateKit/Classes/Positions;
+			sourceTree = "<group>";
+		};
+		C21763E8EAAF96C3D7BE94D99E00DC25 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D1175DC0679254CA2E7392C38DA2F63C /* UIView+EmptyState.swift */,
+				AA3EA7AABB12D552BAF07AB89026C7B0 /* UIView+Nib.swift */,
 			);
 			name = Extensions;
 			path = EmptyStateKit/Classes/Extensions;
@@ -235,16 +255,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		D801137DDA34C2B88D3324BECF067E2D /* Animations */ = {
-			isa = PBXGroup;
-			children = (
-				F0C9D9A86905CC9567AFB86574D2D553 /* EmptyStateAnimation.swift */,
-				3C8C36080C31B19C404C79EBEF7C63B9 /* EmptyStateView+Animations.swift */,
-			);
-			name = Animations;
-			path = EmptyStateKit/Classes/Animations;
-			sourceTree = "<group>";
-		};
 		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -254,14 +264,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FC580B4921D63C365E8ED2A0539FE505 /* Pod */ = {
+		FF91076AF3F29FB1EDCDF83800471B77 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				27C431FE9398AC647FB23B2166E1BC0A /* EmptyStateKit.podspec */,
-				0193CA2AAC2F6617FBDF44C233419369 /* LICENSE */,
-				862AE79ED010F19807DCE20720F0E749 /* README.md */,
+				F0DB3A5C29D46CFD8DF8039AD85B0AE3 /* EmptyStateView.xib */,
 			);
-			name = Pod;
+			name = Resources;
+			path = EmptyStateKit/Classes/Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +300,7 @@
 			buildConfigurationList = E9E68A716C49D78F2CB50954B1322EF8 /* Build configuration list for PBXNativeTarget "EmptyStateKit" */;
 			buildPhases = (
 				B229B7AAB92A9BA866710522BF40A26F /* Headers */,
-				78B2376D9D66BBC17E8E293936313E34 /* Sources */,
+				7AB7DA5E800DAB5F429D5152DA7F72A4 /* Sources */,
 				DCA358EB577B3ACF8BA98714B3B06612 /* Frameworks */,
 				F4731F76F24BF8B4F2178577FE29E9EC /* Resources */,
 			);
@@ -368,33 +377,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		78B2376D9D66BBC17E8E293936313E34 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23163F0ACDE0EE97280266E841EA3C37 /* AssociationPolicy.swift in Sources */,
-				FFDEAEEB3C7AFB0A3691ACCD2352E3EE /* CustomState.swift in Sources */,
-				F5E8DC1D4798C4682D2349DCE9F6487D /* EmptyState.swift in Sources */,
-				9E8608B4DFBE15E3854F428EC778F956 /* EmptyStateAnimation.swift in Sources */,
-				0FA19E50BC52EEF8C89BF854D552A86F /* EmptyStateFormat.swift in Sources */,
-				5F9FEF2A8A2C79298864D54A63FBF400 /* EmptyStateKit-dummy.m in Sources */,
-				7312B23933D950771B93D50589EAFF69 /* EmptyStatePosition.swift in Sources */,
-				2CB363D0446DFCD5990375E2F6F2E183 /* EmptyStateView+Animations.swift in Sources */,
-				15676C023B90B9949B8C80F718C4DCB3 /* EmptyStateView+Positions.swift in Sources */,
-				E10B341B10A718EC6047D6751EA61DF1 /* EmptyStateView.swift in Sources */,
-				5FC1D2DDFE6C759E268EDB19FDCEC73B /* EmptyStateView.xib in Sources */,
-				E4413AE943FA454CC121BBEAAD3BDD64 /* NibLoadable.swift in Sources */,
-				EB1DD1CEE2336671FBCE4746DC521DB3 /* NibView.swift in Sources */,
-				8828588AB7C949A40999C1E95A5DBD55 /* UIView+EmptyState.swift in Sources */,
-				A124122244EBD1C8724497C45848A410 /* UIView+Nib.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7A6E17A3BA33DE15136A725B4D57A745 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B406A56349FCC0C16AD1E8D5D7EDC5C3 /* Pods-EmptyStateKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB7DA5E800DAB5F429D5152DA7F72A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7EC5A36E6996604F6E125AB2E14C9C /* AssociationPolicy.swift in Sources */,
+				4D69A6BF9B2949E2301DB98AD946FEC9 /* CustomState.swift in Sources */,
+				13B900D2A96304D7C5E6969F524EBC4A /* EmptyState.swift in Sources */,
+				91427ADD6D10B23D9B819E4CACB1F9FA /* EmptyStateAnimation.swift in Sources */,
+				90FDAD9F8CA79B602E249235317CA65C /* EmptyStateFormat.swift in Sources */,
+				DF57B5E3AD6BC799815F54FD7D02072F /* EmptyStateKit-dummy.m in Sources */,
+				0A6E0CDABD53F642D02BD1E8D171D131 /* EmptyStatePosition.swift in Sources */,
+				75E6089514B416007D3E1375E0FD923B /* EmptyStateView+Animations.swift in Sources */,
+				053890B2B923B41D8FB2AFD20C63D258 /* EmptyStateView+Positions.swift in Sources */,
+				0057F11B7D0A8E4508EA6ECD6E9E199D /* EmptyStateView.swift in Sources */,
+				F418D71D1517A2CE8BD940EE7826D84D /* EmptyStateView.xib in Sources */,
+				6208412B17338A5D353DF2D841FFF709 /* NibLoadable.swift in Sources */,
+				DA5ED88889FDBA385A42F972C2747258 /* NibView.swift in Sources */,
+				FA3C8714BD085427C5476E9B51BBF8BB /* UIView+EmptyState.swift in Sources */,
+				2EFD8229923B38C0C6D90459077AFF3E /* UIView+Nib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,7 +485,7 @@
 		};
 		6BD28DD738480B86B59BDFF13BB8A542 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 077B0F885B5EFFA6CA6B4E59D13D854E /* EmptyStateKit.xcconfig */;
+			baseConfigurationReference = E982180970839CB781403EB1068B092F /* EmptyStateKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -634,7 +643,7 @@
 		};
 		F996F5EEF5AC75D3EE013EAC7BA8A6FC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 077B0F885B5EFFA6CA6B4E59D13D854E /* EmptyStateKit.xcconfig */;
+			baseConfigurationReference = E982180970839CB781403EB1068B092F /* EmptyStateKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
