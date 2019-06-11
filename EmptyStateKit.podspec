@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.name              = 'EmptyStateKit'
   s.summary           = 'Beautiful, animated & fully customizable empty state view. A great way to engage and keep users whenever the view has no content to display.'
   s.description       = 'Empty states are actually a great way to engage, keep and delight users at critical moments. Use `EmptyStateKit` to make your app even more interesting and add a bit of fun to the UI interactions whenever the view has no content to display. Display awesome placeholder empty state in any UIView or UITableView/UICollectionView with refresh content features. It is super-useful to speed up a mobile development workflow due to its flexibility and ease of use.'
-  s.version           = '1.0.6'
+  s.version           = '1.0.7'
   
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
@@ -37,11 +37,11 @@ Pod::Spec.new do |s|
   
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
-  s.source_files      = 'EmptyStateKit/**/*'
+  s.source_files      = 'EmptyStateKit/**/*.{swift}'
   
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   
-  s.resources         = 'Classes/Resources/*.xib'
+  s.resources         = 'EmptyStateKit/**/Resources/*.xib'
   
   # ――― Swift Version ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   

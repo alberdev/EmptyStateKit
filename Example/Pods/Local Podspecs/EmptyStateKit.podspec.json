@@ -20,7 +20,7 @@
     "tag": "1.0.6"
   },
   "frameworks": "UIKit",
-  "source_files": "EmptyStateKit/**/*",
-  "resources": "Classes/Resources/*.xib",
+  "source_files": "EmptyStateKit/**/*.{swift}",
+  "resources": "EmptyStateKit/**/Resources/*.xib",
   "swift_versions": "5.0"
 }
