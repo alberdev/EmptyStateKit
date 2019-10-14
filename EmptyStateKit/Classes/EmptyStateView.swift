@@ -112,12 +112,14 @@ extension EmptyStateView {
     private func updateUI() {
         
         imageView.isHidden = false
+        coverImageView.isHidden = true
         if let imageTintColor = format.imageTintColor {
             imageView.tintColor = imageTintColor
+            coverImageView.tintColor = imageTintColor
         } else {
             imageView.tintColor = .systemBlue
+            coverImageView.tintColor = .systemBlue
         }
-        coverImageView.isHidden = true
         
         // Primary button format
         primaryButton.backgroundColor = format.buttonColor
