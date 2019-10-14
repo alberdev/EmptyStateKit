@@ -42,6 +42,9 @@ public struct EmptyStateFormat {
     
     /// Alpha container
     public var alpha: CGFloat = 1.0
+
+    /// Tint color for template image
+    public var imageTintColor: UIColor? = nil
     
     /// Background color
     public var backgroundColor: UIColor = .white
