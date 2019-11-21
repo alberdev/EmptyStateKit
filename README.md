@@ -1,16 +1,59 @@
-![EmptyStateKit logo](https://raw.githubusercontent.com/alberdev/EmptyStateKit/master/Images/header.png)
+<p align="center">
+   <img width="500" src="https://raw.githubusercontent.com/alberdev/EmptyStateKit/master/Images/header_EmptyStateKit.png" alt="EmptyStateKit  Logo">
+</p>
+
+<p align="center">
+   <a href="https://cocoapods.org/pods/EmptyStateKit">
+      <img src="https://img.shields.io/cocoapods/v/EmptyStateKit.svg?style=flat&colorB=30CEF2" alt="Version">
+   </a>
+   <!--
+   <a href="https://github.com/Carthage/Carthage">
+      <img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage Compatible">
+   </a>
+   -->
+   <a href="https://cocoapods.org/pods/EmptyStateKit">
+      <img src="https://img.shields.io/cocoapods/l/EmptyStateKit.svg?style=flat)" alt="License">
+   </a>
+   <a href="https://developer.apple.com/swift/">
+      <img src="https://img.shields.io/badge/Swift-5.0-blue.svg?style=flat&colorB=30CEF2" alt="Swift 5.0">
+   </a>
+   <a href="https://cocoapods.org/pods/EmptyStateKit">
+      <img src="https://img.shields.io/cocoapods/p/EmptyStateKit.svg?style=flat&colorB=30CEF2" alt="Platform">
+   </a>
+   <!--
+   <a href="https://alberdev.github.io/EmptyStateKit">
+      <img src="https://github.com/alberdev/EmptyStateKit/blob/gh-pages/badge.svg" alt="Documentation">
+   </a>
+   -->
+   <a href="https://twitter.com/alberdev/">
+      <img src="https://img.shields.io/badge/Twitter-@alberdev-blue.svg?style=flat&colorB=30CEF2" alt="Twitter">
+   </a>
+   
+</p>
+
+<br/>
+
+<p align="center">
+   Empty states are actually a great way to engage, keep and delight users at critical moments. Use <b>EmptyStateKit</b> to make your app even more interesting and add a bit of fun to the UI interactions whenever the view has no content to display. Display awesome placeholder empty state in any UIView or UITableView/UICollectionView with refresh content features. It is super-useful to speed up a mobile development workflow due to its flexibility and ease of use.  <b>EmptyStateKit</b> is written in Swift 5.
+</p>
+
+<br/>
+
+<p align="center" >
+<img src="https://raw.githubusercontent.com/alberdev/EmptyStateKit/master/Images/video.gif" alt="EmptyStateKit" title="EmptyStateKit demo">
+</p>
+
 
 # EmptyStateKit
 
-[![Version](https://img.shields.io/cocoapods/v/EmptyStateKit.svg?style=flat&colorB=30CEF2)](https://cocoapods.org/pods/EmptyStateKit)
-[![License](https://img.shields.io/cocoapods/l/EmptyStateKit.svg?style=flat)](https://cocoapods.org/pods/EmptyStateKit)
-[![Platform](https://img.shields.io/cocoapods/p/EmptyStateKit.svg?style=flat)](https://cocoapods.org/pods/EmptyStateKit)
-![Swift](https://img.shields.io/badge/%20in-swift%205.0-orange.svg?style=flat&colorB=30CEF2)
+- [x] Awesome fade & scale animations
+- [x] Totally customizable
+- [x] Use it also in your own tables and collection views
+- [x] Easy usage
+- [x] Supports iOS, developed in Swift 5
 
 ## Table of Contents
 
-- [Description](#description)
-- [Example](#example)
 - [Installation](#installation)
 - [Usage](#usage)
     - [1. Complete empty states data](#1-complete-empty-states-data)
@@ -24,23 +67,6 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-## Description
-
-Empty states are actually a great way to engage, keep and delight users at critical moments. Use `EmptyStateKit` to make your app even more interesting and add a bit of fun to the UI interactions whenever the view has no content to display. Display awesome placeholder empty state in any UIView or UITableView/UICollectionView with refresh content features. It is super-useful to speed up a mobile development workflow due to its flexibility and ease of use.  `EmptyStateKit` is written in Swift 5.
-
-- [x] Awesome fade & scale animations
-- [x] Totally customizable
-- [x] Use it also in your own tables and collection views
-- [x] Easy usage
-- [x] Supports iOS, developed in Swift 5
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-<p align="center" >
-<img src="https://raw.githubusercontent.com/alberdev/EmptyStateKit/master/Images/video.gif" alt="EmptyStateKit" title="EmptyStateKit demo">
-</p>
 
 ## Installation
 
