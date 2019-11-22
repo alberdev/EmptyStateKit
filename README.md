@@ -368,3 +368,13 @@ Feel free to collaborate with ideas 💭, issues ⁉️ and/or pull requests �
 ## License
 
 EmptyStateKit is available under the MIT license. See the LICENSE file for more info.
+
+## Libraries by @alberdev
+
+<a href="https://github.com/alberdev/AnimatedField"><img align="left" width="100" src="https://raw.githubusercontent.com/alberdev/EmptyStateKit/master/Images/Pods/AnimatedField.png" alt="AnimatedField  Logo" vspace="10"></a>
+<a href="https://github.com/alberdev/ContentLoader"><img align="left" width="100" src="https://raw.githubusercontent.com/alberdev/EmptyStateKit/master/Images/Pods/ContentLoader.png" alt="ContentLoader  Logo" vspace="10"></a>
+<a href="https://github.com/alberdev/CiaoTransitions"><img align="left" width="100" src="https://raw.githubusercontent.com/alberdev/EmptyStateKit/master/Images/Pods/CiaoTransitions.png" alt="CiaoTransitions  Logo" vspace="10"></a>
+<a href="https://github.com/alberdev/DateScrollPicker"><img align="left" width="100" src="https://raw.githubusercontent.com/alberdev/EmptyStateKit/master/Images/Pods/DateScrollPicker.png" alt="DateScrollPicker  Logo" vspace="10"></a>
+<a href="https://github.com/alberdev/EmptyStateKit"><img align="left" width="100" src="https://raw.githubusercontent.com/alberdev/EmptyStateKit/master/Images/Pods/EmptyStateKit.png" alt="EmptyStateKit  Logo" vspace="10"></a>
+<a href="https://github.com/alberdev/GridTimerView"><img align="left" width="100" src="https://raw.githubusercontent.com/alberdev/EmptyStateKit/master/Images/Pods/GridTimerView.png" alt="GridTimerView  Logo" vspace="10"></a>
+<a href="https://github.com/alberdev/PaintCodeKit"><img align="left" width="100" src="https://raw.githubusercontent.com/alberdev/EmptyStateKit/master/Images/Pods/PaintCodeKit.png" alt="PaintCodeKit  Logo" vspace="10"></a>
