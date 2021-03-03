@@ -86,12 +86,15 @@ public class EmptyState {
 extension EmptyState {
     
     public func show(_ state: CustomState? = nil, isForce: Bool = false) {
-        guard self.state?.title != state?.title ||
-              self.state?.image != state?.image ||
-              self.state?.titleButton != state?.titleButton ||
-              self.state?.description != state?.description else {
-          return
+        if !isForce {
+            guard self.state?.title != state?.title ||
+                  self.state?.image != state?.image ||
+                  self.state?.titleButton != state?.titleButton ||
+                  self.state?.description != state?.description else {
+              return
+            }
         }
+
         self.state = state
         hidden = false
         tableView?.separatorStyle = .none
