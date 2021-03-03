@@ -85,7 +85,7 @@ public class EmptyState {
 
 extension EmptyState {
     
-    public func show(_ state: CustomState? = nil) {
+    public func show(_ state: CustomState? = nil, isForce: Bool = false) {
         guard self.state?.title != state?.title ||
               self.state?.image != state?.image ||
               self.state?.titleButton != state?.titleButton ||
