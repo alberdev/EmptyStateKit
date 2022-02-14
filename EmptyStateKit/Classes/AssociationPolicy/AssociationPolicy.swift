@@ -20,7 +20,7 @@ enum AssociationPolicy: UInt {
     }
 }
 
-protocol AssociatedObjects: class { }
+protocol AssociatedObjects: AnyObject { }
 
 // transparent wrappers
 extension AssociatedObjects {

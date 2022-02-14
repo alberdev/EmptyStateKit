@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol NibViewProtocol: class {
+protocol NibViewProtocol: AnyObject {
     func commonInit()
 }
 
